@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- ICONS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <title>Document</title>
-        <style>
-            .bg-accent {
-                --tw-bg-opacity: 1;
-                background-color: hsl(201 96% 32% / var(--tw-bg-opacity));
-            }
-        </style>
-    </head>
+
+<head>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        .bg-accent {
+            --tw-bg-opacity: 1;
+            background-color: hsl(201 96% 32% / var(--tw-bg-opacity));
+        }
+
+        .titlebg {
+            background: linear-gradient(90.09deg, rgba(0, 0, 0, 0.7) 0.08%, rgba(0, 0, 0, 0.3) 99.11%), url(../img/about_top.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
+
 <body>
     <div class="main-body flex flex-col gap-8 lg:gap-12 mt-64 lg:mt-32 mb-24" style="font-family: Poppins;">
         <div>
             <div class="titlebg flex flex-col justify-center items-start h-[224px] px-4 lg:px-[11%] py-[48px]">
-                <p class="font2 font-bold text-[52px] lg:text-[88px] uppercase text-white leading-[1]">Director</p>
+                <p class="font2 font-bold text-[52px] lg:text-[88px] uppercase text-white leading-[1]">FAQs</p>
             </div>
             <nav class="flex px-4 lg:px-[11%] bg-gray-200 py-[8px] text-black" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center">
@@ -35,40 +44,41 @@
                         <div class="inline-flex items-center">
                             <i style="color: rgb(128, 128, 128); font-size: 12px; margin-left: 12px"
                                 class="fa-solid cursor-pointer fa-angle-right ml-2"></i>
-                            <a href="#" class="text-lg font-medium ml-2">General FAQs</a>
+                            <a href="#" class="text-lg font-medium ml-2">Frequently Asked Questions</a>
                         </div>
                     </li>
                 </ol>
             </nav>
         </div>
-    </div>
-    <div>
-        <div class="flex-col w-full mb-48 lg:mb-8 ">
-            <div class="head block bg-[#0369A1] text-white  p-2 ml-8 lg:w-[80%] w-[100%] mt-4">
-                Frequently Asked Questions
-            </div>
-    
-            <div class="flex-col justify-center align-center mr-[5%] lg:w-[80%] w-[100%]">
-              <ul class="h-[22vh] w-[100%] leading-8 ">
-                <li>
-                  <a  href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_B_Tech_students_32638.pdf" target="_blank" class="ml-[3%] hover:text-orange-600"> B.Tech</a>
-                  <hr class="border-1 border-gray-300">
-                </li>
-                <li>
-                  <a href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_PG_students_32862.pdf" target="_blank" class="ml-[3%] hover:text-orange-600">M.Tech/M.Sc./MBA </a>
-                  <hr class="border-1 border-gray-300">
-                </li>
-                <li>
-                  <a href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_PhD_students_57201.pdf" class="ml-[3%] hover:text-orange-600"> PhD</a>
-                  <hr class="border-1 border-gray-300">
-                </li>
-                <li>
-                  <a href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_all_Pass_out_students_61367.pdf" target="_blank" class="ml-[3%] hover:text-orange-600">All Passout Students</a>
-                  <hr class="border-1 border-gray-300">
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div class="m-2">
+            <div class="flex-col w-full mb-48 lg:mb-8 ">
+                <div class="head block bg-[#0369A1] text-white  p-2 ml-8 lg:w-[80%] w-[100%] mt-4">
+                    Frequently Asked Questions
+                </div>
         
+                <div class="flex-col justify-center align-center mr-[5%] lg:w-[80%] w-[100%] ml-8">
+                  <ul class="h-[22vh] w-[100%] leading-8 ">
+                    <li>
+                      <a  href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_B_Tech_students_32638.pdf" target="_blank" class=" hover:text-orange-600"> B.Tech</a>
+                      <hr class="border-1 border-gray-300 ">
+                    </li>
+                    <li>
+                      <a href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_PG_students_32862.pdf" target="_blank" class=" hover:text-orange-600">M.Tech/M.Sc./MBA </a>
+                      <hr class="border-1 border-gray-300 ">
+                    </li>
+                    <li>
+                      <a href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_PhD_students_57201.pdf" class="hover:text-orange-600"> PhD</a>
+                      <hr class="border-1 border-gray-300 ">
+                    </li>
+                    <li>
+                      <a href="https://www.nitj.ac.in/nitj_files/links/FAQ_for_all_Pass_out_students_61367.pdf" target="_blank" class=" hover:text-orange-600">All Passout Students</a>
+                      <hr class="border-1 border-gray-300 ">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+         
+        </div>
 </body>
+
 </html>

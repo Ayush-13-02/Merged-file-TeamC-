@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- ICONS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <title>Document</title>
-        <style>
-            .bg-accent {
-                --tw-bg-opacity: 1;
-                background-color: hsl(201 96% 32% / var(--tw-bg-opacity));
-            }
-        </style>
-    </head>
+
+<head>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        .bg-accent {
+            --tw-bg-opacity: 1;
+            background-color: hsl(201 96% 32% / var(--tw-bg-opacity));
+        }
+
+        .titlebg {
+            background: linear-gradient(90.09deg, rgba(0, 0, 0, 0.7) 0.08%, rgba(0, 0, 0, 0.3) 99.11%), url(../img/about_top.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
+</head>
 
 <body>
     <div class="main-body flex flex-col gap-8 lg:gap-12 mt-64 lg:mt-32 mb-24" style="font-family: Poppins;">
         <div>
             <div class="titlebg flex flex-col justify-center items-start h-[224px] px-4 lg:px-[11%] py-[48px]">
-                <p class="font2 font-bold text-[52px] lg:text-[88px] uppercase text-white leading-[1]">Director</p>
+                <p class="font2 font-bold text-[52px] lg:text-[88px] uppercase text-white leading-[1]">Academic Regulations</p>
             </div>
             <nav class="flex px-4 lg:px-[11%] bg-gray-200 py-[8px] text-black" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center">
@@ -42,122 +50,118 @@
                 </ol>
             </nav>
         </div>
-    </div>
-    <div>
-       
-    </div>
-    <div class="flex flex-col items-start px-4 lg:px-[11%] gap-[20px] lg:gap-[30px]">
+        <div class="flex flex-col items-start px-4 lg:px-[11%] gap-[20px] lg:gap-[30px]">
 
-        <div
-            class=" head block bg-[#0369A1] text-white  p-2 mr-[5%] lg:w-[80%] w-[100%] mt-4 font2 font-medium text-[25px] lg:text-[30px]">
-            Rules and Regulations for B.Tech Programmes
+            <div
+                class=" head block bg-[#0369A1] text-white  p-2 mr-[5%] lg:w-[80%] w-[100%] mt-4 font2 font-medium text-[25px] lg:text-[30px]">
+                Rules and Regulations for B.Tech Programmes
+            </div>
+    
+            <h1 class="text-[15px] lg:text-[20px] underline"> Registration </h1>
+            <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
+                Registration is an important procedural part of the academic system which ensure the willingness of the
+                student to continue in the course of the study in the institute. No credit is given to the student who
+                attendts a course without a formal registration. The name of the registered student only appears on the roll
+                list of the courses registered.
+                Pre-registration for each semester will be done according to a specified schedule prior to the end of the
+                previous semester and paying the requisre tuition fee to the institute.
+                In absentia registration will be allowed only in rare cases at the discretion of dean (Academic Programme).
+                In case of illness or absence during registration, the student should intimate the same to the Dean
+                (Academic programme). Each student will be given a Registration Record which will be an offcial record of
+                courses registered. Add, Drop, Withdrawl and Audit will be marked on this sheet itself by the Academic
+                Section. The registration Record should be retained by the student until he/she gets the Semester Grade card
+                for the Corresponding semester.
+                The following credits are required to be earned for the registration in the next semester for B Tech
+                batches:
+            <div class="overflow-x-auto relative">
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="py-3 px-6 rounded-l-lg">
+                                Sr No:
+                            </th>
+                            <th scope="col" class="py-3 px-6">
+                                2012 onwards
+                            </th>
+                            <th scope="col" class="py-3 px-6 rounded-r-lg">
+                                Previous Batches
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-white dark:bg-gray-800">
+                            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                1
+                            </th>
+                            <td class="py-4 px-6">
+                                20
+                            </td>
+                            <td class="py-4 px-6">
+                                30
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800">
+                            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                2
+                            </th>
+                            <td class="py-4 px-6">
+                                50
+                            </td>
+                            <td class="py-4 px-6">
+                                60
+                            </td>
+                        </tr>
+                        <tr class="bg-white dark:bg-gray-800">
+                            <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                3
+                            </th>
+                            <td class="py-4 px-6">
+                                75
+                            </td>
+                            <td class="py-4 px-6">
+                                90
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            </p>
+    
+            <h1 class="text-[15px] lg:text-[20px] underline"> Advice on Courses
+            </h1>
+            <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
+                At the time of completing the registration Form, each student should consult his/her HOD concerned to
+                finalize the academic programme, keeping in view minimum/maximum numbers of total and lecture credits, past
+                performance, backlog of courses, SGPA/CGPA, workload and student’s interest. Special provisions exist for
+                academically weak students.
+            </p>
+            <h1 class="text-[15px] lg:text-[20px] underline"> Credits requirments for Registration
+    
+            </h1>
+            <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
+                A student must register for aminimum of 15 credits and a maximum of 30 credits in a semester wherein theory
+                credits registered by a student should not be less than 9 credits.
+    
+                There is a minimum number of student registration to run an elective course and will be decided by the
+                department concerned from time to time.
+            </p>
+    
+            <h1 class="text-[15px] lg:text-[20px] underline"> Late Registration
+    
+            </h1>
+            <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
+                1.For those students who were not on campus during the period of registration in the previous semester, registration procedure will be completed on a later date with permission of the Dean, Academic.
+     
+                2.For reasons beyond his/her control, if a student is not able to register or send an authorized representative with a medical certificate, he/she may apply to the Dean (Academic) for late registration. The Dean will consider and may approve late registration in genuine cases on payment of an extra fee of Rs 500/-.Late registration is allowed until one week after the start of the semester. The attendance requirements of 75 % will not be relaxed in late registration cases and same will be counted from the date of start of the class.
+                
+            </p>
+    
+    
+    
+    
+    
         </div>
-
-        <h1 class="text-[15px] lg:text-[20px] underline"> Registration </h1>
-        <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
-            Registration is an important procedural part of the academic system which ensure the willingness of the
-            student to continue in the course of the study in the institute. No credit is given to the student who
-            attendts a course without a formal registration. The name of the registered student only appears on the roll
-            list of the courses registered.
-            Pre-registration for each semester will be done according to a specified schedule prior to the end of the
-            previous semester and paying the requisre tuition fee to the institute.
-            In absentia registration will be allowed only in rare cases at the discretion of dean (Academic Programme).
-            In case of illness or absence during registration, the student should intimate the same to the Dean
-            (Academic programme). Each student will be given a Registration Record which will be an offcial record of
-            courses registered. Add, Drop, Withdrawl and Audit will be marked on this sheet itself by the Academic
-            Section. The registration Record should be retained by the student until he/she gets the Semester Grade card
-            for the Corresponding semester.
-            The following credits are required to be earned for the registration in the next semester for B Tech
-            batches:
-        <div class="overflow-x-auto relative">
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead class="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
-                    <tr>
-                        <th scope="col" class="py-3 px-6 rounded-l-lg">
-                            Sr No:
-                        </th>
-                        <th scope="col" class="py-3 px-6">
-                            2012 onwards
-                        </th>
-                        <th scope="col" class="py-3 px-6 rounded-r-lg">
-                            Previous Batches
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="bg-white dark:bg-gray-800">
-                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            1
-                        </th>
-                        <td class="py-4 px-6">
-                            20
-                        </td>
-                        <td class="py-4 px-6">
-                            30
-                        </td>
-                    </tr>
-                    <tr class="bg-white dark:bg-gray-800">
-                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            2
-                        </th>
-                        <td class="py-4 px-6">
-                            50
-                        </td>
-                        <td class="py-4 px-6">
-                            60
-                        </td>
-                    </tr>
-                    <tr class="bg-white dark:bg-gray-800">
-                        <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                            3
-                        </th>
-                        <td class="py-4 px-6">
-                            75
-                        </td>
-                        <td class="py-4 px-6">
-                            90
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        </p>
-
-        <h1 class="text-[15px] lg:text-[20px] underline"> Advice on Courses
-        </h1>
-        <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
-            At the time of completing the registration Form, each student should consult his/her HOD concerned to
-            finalize the academic programme, keeping in view minimum/maximum numbers of total and lecture credits, past
-            performance, backlog of courses, SGPA/CGPA, workload and student’s interest. Special provisions exist for
-            academically weak students.
-        </p>
-        <h1 class="text-[15px] lg:text-[20px] underline"> Credits requirments for Registration
-
-        </h1>
-        <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
-            A student must register for aminimum of 15 credits and a maximum of 30 credits in a semester wherein theory
-            credits registered by a student should not be less than 9 credits.
-
-            There is a minimum number of student registration to run an elective course and will be decided by the
-            department concerned from time to time.
-        </p>
-
-        <h1 class="text-[15px] lg:text-[20px] underline"> Late Registration
-
-        </h1>
-        <p class="text-gray-500 lg:text-[15px] lg:leading-[35px] text-justify">
-            1.For those students who were not on campus during the period of registration in the previous semester, registration procedure will be completed on a later date with permission of the Dean, Academic.
- 
-            2.For reasons beyond his/her control, if a student is not able to register or send an authorized representative with a medical certificate, he/she may apply to the Dean (Academic) for late registration. The Dean will consider and may approve late registration in genuine cases on payment of an extra fee of Rs 500/-.Late registration is allowed until one week after the start of the semester. The attendance requirements of 75 % will not be relaxed in late registration cases and same will be counted from the date of start of the class.
-            
-        </p>
-
-
-
-
-
-    </div>
 </body>
 
 </html>
